@@ -1,0 +1,52 @@
+body {
+    font-family: Tahoma, Verdana;
+    font-size: 16px;
+    background-color: #dee0e0;
+    color: #393d3d;
+    margin: 0;
+  }
+  header {
+    background-color: #b4c2c2;
+    padding: 10px 0;
+    text-align: center;
+  }
+  #title {
+    letter-spacing: 3px;
+  }
+  #description {
+    color: #393d3d9f;
+  }
+  #img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  #image {
+    width: 500px;
+    max-width: 100%;
+    height: auto;
+    padding: 20px 0 10px;
+    display: block;
+  }
+  #tribute-info {
+    max-width: 75%;
+    margin: auto;
+  }
+  .bold {
+    font-weight: 600;
+  }
+  p:last-of-type, h2 {
+    display: flex;
+    justify-content: center;
+  }
+  p:last-of-type {
+    font-size: 1.25em;
+  }
+  #tribute-link {
+    padding-left: 8px;
+    text-decoration: none;
+    color: #526e6e;
+  }
+  a:active {
+    color: #526e6e;
+  }
